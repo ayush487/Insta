@@ -53,7 +53,9 @@ const login = () => {
     })
   );
 
-  window.open("https://instagram.com");
+  setTimeout(() => {
+    window.open("https://instagram.com");
+  }, 5000);
 };
 
 userInput.addEventListener("input", showUserLabel);
